@@ -5,6 +5,7 @@
   "description": "Offline macOS Services and CLI translation using Apple's Translation framework.",
   "scripts": {
     "build": "./scripts/build.sh",
+    "package": "./scripts/package.sh",
     "deploy": "./scripts/install.sh",
     "lint": "npx npm-run-all --parallel lint:*",
     "lint:swift": "swift format lint --recursive --strict Package.swift Sources scripts/make-icon.swift",
