@@ -1,11 +1,9 @@
 # README.todo
 
-## Pending
+## 系統服務 (Services)
 
-- [ ] 目標語言目前在 app 端寫死 zh-Hant（CLI 有 `--target`）。若要在 Services 選單提供
-      多個目標語言，需要在 Info.plist 加多筆 `NSServices` 條目 + 對應 selector。
+- [ ] [P2] [feature] 目標語言目前在 app 端寫死 zh-Hant（CLI 有 `--target`）。若要在 Services 選單提供多個目標語言，需要在 Info.plist 加多筆 `NSServices` 條目 + 對應 selector。
 
 ## Archive
 
-- [x] 2026-08-01 建立專案：Translation.framework 核心、CLI、Services provider app、
-      安裝腳本、繁中文件。
+- [x] 2026-08-01 建立專案：Translation.framework 核心、CLI、Services provider app、安裝腳本、繁中文件。
